@@ -1,0 +1,79 @@
+{
+   "models": [
+      {
+         "title": "Natural Ground Filtration System",
+         "organism": "Vegetation (part of a multi-component system including geological layers)",
+         "taxonomic_kingdom": "Plants (Multicellular photosynthetic organisms)",
+         "environment": "Forests, deserts, and wetlands, consisting of vegetation, gravel, sand, and soil layers.",
+         "biome": "Terrestrial Forest (Temperate, Tropical, Boreal)",
+         "problem": "Purification of rainfall as it soaks into the ground.",
+         "solution": "Nature employs a multilayer architecture for water purification. Rainfall first permeates through a vegetation layer, which serves as an initial filter. Subsequently, the water passes through successive geological layers, including gravel, sand, and fine soil horizons. Each layer contributes to the filtration process by trapping particles of different sizes, resulting in progressively cleaner water as it moves deeper into the ground.",
+         "functional_components": [
+            {
+               "function": "Initial trapping of large soil particles from rainfall.",
+               "description": "The vegetation layer is the uppermost layer of the natural ground filtration system. As rainfall lands and soaks into the ground, this layer acts as a primary filter, physically trapping large soil particles.",
+               "scale": "Mesoscale (1 mm - 1 m)",
+               "categories": [
+                  "Structural: Form, Architecture, Scaffolding, Topology, Static Load Bearing"
+               ],
+               "characteristic_dimensions": [],
+               "abstracted_design_principles": [
+                  {
+                     "description": "Utilizing a structural layer with interstitial spaces to physically impede the movement of larger elements while allowing smaller elements to pass, thereby achieving initial separation of components based on size.",
+                     "low_abstraction": "Capture solid elements by employing a porous structure.",
+                     "high_abstraction": "Separate components using a physical barrier."
+                  }
+               ]
+            },
+            {
+               "function": "Trapping of large soil particles.",
+               "description": "Located beneath the vegetation layer, the gravel layer serves as a subsequent filter. It is composed of gravel, which creates interstitial spaces that physically trap large soil particles that were not captured by the vegetation layer.",
+               "scale": "Milliscale (1-1000 mm)",
+               "categories": [
+                  "Structural: Form, Architecture, Scaffolding, Topology, Static Load Bearing"
+               ],
+               "characteristic_dimensions": [],
+               "abstracted_design_principles": [
+                  {
+                     "description": "Achieve separation of larger elements from a flow by employing a structured material that defines interstitial spaces sized to physically impede the passage of the target elements while allowing smaller elements to pass.",
+                     "low_abstraction": "Trap large particles by utilizing interstitial spaces within a structured layer.",
+                     "high_abstraction": "Separate elements using a porous structure."
+                  }
+               ]
+            },
+            {
+               "function": "Further cleansing through finer filtration.",
+               "description": "Positioned below the gravel layer, the sand layer consists of finer particles than gravel. The spaces between sand grains provide a finer filtration medium, allowing the rainfall to be further cleansed by trapping smaller particles.",
+               "scale": "Microscale (1-1000 \u03bcm)",
+               "categories": [
+                  "Structural: Form, Architecture, Scaffolding, Topology, Static Load Bearing"
+               ],
+               "characteristic_dimensions": [],
+               "abstracted_design_principles": [
+                  {
+                     "description": "Achieve enhanced removal of small contaminants by employing a medium composed of finer constituent elements, thereby creating smaller interstitial spaces that physically impede the passage of the target entities.",
+                     "low_abstraction": "Enhance particle capture by utilizing a medium with smaller interstitial spaces.",
+                     "high_abstraction": "Improve separation performance using structured materials."
+                  }
+               ]
+            },
+            {
+               "function": "Final cleansing through fine filtration.",
+               "description": "The deepest filtration occurs as the rainfall passes through fine layers of sand and soil, also known as soil horizons. These layers contain very fine particles and complex structures that provide the final stage of filtration, trapping the smallest remaining particles and interacting with dissolved substances.",
+               "scale": "Microscale (1-1000 \u03bcm)",
+               "categories": [
+                  "Structural: Form, Architecture, Scaffolding, Topology, Static Load Bearing"
+               ],
+               "characteristic_dimensions": [],
+               "abstracted_design_principles": [
+                  {
+                     "description": "Achieve fine-scale separation or purification by passing a substance through a layered medium composed of very small particles and intricate arrangements, which physically traps fine contaminants and facilitates interaction with dissolved components.",
+                     "low_abstraction": "Achieve fine separation by utilizing layered media with fine particles and complex structures.",
+                     "high_abstraction": "Control substance purity using structured media."
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
